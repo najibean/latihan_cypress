@@ -15,3 +15,6 @@
 
 #### how to access elements
 - jika class tidak bisa ditemukan, maka cypress by default akan menunggu hingga 4000ms sebelum mengirim AssertionError.
+
+#### reference
+- channel youtube `Automation step by step` by Raghav
