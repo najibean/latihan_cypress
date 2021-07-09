@@ -8,7 +8,7 @@ it('google test', function() {
     cy.contains('News').click() // jika tidak dengan class, melainkan dengan konteks text pada element tsb.
 })
 
-// jika hanya ingin ini saya yang di test, maka sertakan .only
+// jika hanya ingin ini yang di test, maka sertakan .only
 it.only('login simplenote.app', function() {
     cy.visit('https://app.simplenote.com/login/')
     cy.get('#email').type('najibullah89@gmail.com')
